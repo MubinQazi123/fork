@@ -1,0 +1,105 @@
+26-2-24***Constructor***
+
+>Constructor in java is a special type of method that is used to initialize the object 
+
+>Java Constructor is invoked at the time of object creation. It construct the value i.e provide data for the object that is why it is known as constructors
+
+Rules for constructor
+
+2 basic rule
+
+>Constructor name must be same as its class name
+>Constructor must have no explicit return type
+
+Type of constructor
+
+2 type 
+
+1>Default Constructor (no aurgument constructor)
+2>Parameterized constructor
+
+27-2-2023***Java And Polymorphism
+
+>Java Provides mutliple forms of polymorphism.it allows you to define the same method name to do multiple different things.It also....
+
+Type of Polymorphism
+
+>2 types
+>1.Compile time polymorphism (static Polymorphism)
+>2.Runtime Polymorphism (Dynamic Polymorphism)    
+
+>Encapsulation
+................
+
+
+28-2-24************Inheritance
+
+In java Inheritance is a mechanism which one object can get allthe properties and behavoirs of a parent object.In inheritance there is a relationship between twocclasses;
+that's why it IS-A relationship.
+for example:bike, car bus this are vehicle.That's why the child of vehivle are bike car bus and vehicke is the parent of this object
+
+>java Inheritance
+..
+Inheritance Syntax:
+
+class Parent
+{
+//code
+}
+
+class Child extends Parent
+{
+//code
+}
+
+>Type of Inheritance
+-Single Inheritance
+-Multiple Inheritance
+-Multi-level Inheritance
+-Hierarchical Inheritance
+-Hybrid Inheritance
+
+--------------------------------------------interface
+
+*An interface in java is a blue print of a class it has static constant and abstract methods
+*THe interface in java is a mechanism to achieve abstraction
+*there can be only abstract methods in the java interface not method body.it is used to achieve abstraction and mutiple inheritance in java.
+*Java Interface also represents IS-A relationship.
+---Why use Java Interface?
+
+>There are mainly
+
+
+
+21-3-2024*Thread
+Introduction to thread
+Process and thread are basic units of java program execution.
+>Process:A process is a self contained execution environment and it can be seen as a program or application.
+>Thread:It can be called Lightweight process
+	>Thread requires less resources to create and exist in the process
+	>Thread Shared the process
+*Multithreading in java
+Multithreading in java is a process of execution mutliple processes simultaneously
+>A program is divided into two or more subprogram which can be implemented at the same time in parallel.
+>Multiprocessing and Multithreading, both are used to achive multitasking 
+>java Multithreading is mostly used in games,animation etc...
+
+craeting threads 
+
+-threads are implemnented in the form of objects..
+-the run() and start() are two inbuiltr methods which helps to thread implemention 
+ - the run () method is the heart and soul of any thread
+			-it makes up the entire body of a thread
+-the run() method can be initating with the help of start() method.
+
+creating thread contd..
+
+1.by Extending athread  class
+
+class multi extends thraed
+
+
+26/3/24
+String getName()--Retrives The name of running thread in the current context in string Format
+void start()---this method will start a new thread of excution by calling run() method of thread /runnable object..
+----incomplit---
